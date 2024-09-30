@@ -1,1 +1,29 @@
 // Primary button
+.primary-btn{
+  display: flex;
+  gap: $spacing-xs;
+  background-color: $primary-color;
+  width: fit-content;
+  padding: $spacing-lg;
+  border-radius: 1000px;
+  transition: .3s ease-in-out;
+
+  &::after{
+    content: attr(data-text);
+    display: none;
+    color: $text-white-color;
+    font-weight: 400;
+    font-size: $f-size-md;
+    padding: 0 $spacing-md 0 $spacing-md;
+  }
+
+  &:hover{
+    &::after{
+      display: block;
+    }
+  }
+
+  &.blue{
+    background-color: $third-color;
+  }
+}
