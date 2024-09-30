@@ -2,6 +2,7 @@
 $primary-color: #FF914D;
 $secondary-color: #B1D4E0;
 $third-color: #435966;
+$secondary-color-op: rgba(67, 89, 102, 0.011);
 
 $background-light: #FFFFFF;
 $background-gradient: linear-gradient(-180deg, rgba(177,212,224,1) 21%, rgba(177,212,224,0) 100%);
@@ -9,6 +10,10 @@ $background-gradient: linear-gradient(-180deg, rgba(177,212,224,1) 21%, rgba(177
 $text-light-color: #6A7B86;
 $text-grey-color: #DEDCDA;
 $text-white-color: #FFFFFF;
+
+// Box Shadow
+
+$box-shadow: 0px 0px 4px 0px #BFC7CA;
 
 // Fonts
 $f-family-primary: 'Poppins', sans-serif;
