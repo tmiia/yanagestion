@@ -1,0 +1,24 @@
+.our_services{
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-xxl;
+  padding: $spacing-xxxl;
+
+  .left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    .primary-btn{
+      margin-top: auto;
+    }
+  }
+
+  .right{
+    flex: 3;
+  }
+
+  @media (max-width: $breakpoint-md) {
+    flex-direction: column;
+  }
+}

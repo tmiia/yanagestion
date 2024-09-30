@@ -1,0 +1,12 @@
+.row{
+  display: flex;
+  gap: $spacing-xxl;
+
+  & + .row{
+    margin-top: $spacing-xxl;
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    flex-wrap: wrap;
+  }
+}
