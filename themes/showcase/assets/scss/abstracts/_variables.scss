@@ -25,8 +25,10 @@ $f-size-xxl: clamp(pxToRem(20), 5vw, pxToRem(32));
 $f-size-xxxl: clamp(pxToRem(24), 6vw, pxToRem(64));
 $f-size-huge: clamp(pxToRem(64), 10vw, pxToRem(160));
 
-// Line Height
-$line-h-special: 0.9em;
+// Border
+$border-m: pxToRem(16);
+$border-lg: pxToRem(32);
+$border-round: 50%;
 
 // Spacing
 $spacing-xxs: clamp(pxToRem(2), 0.5vw, pxToRem(4));
