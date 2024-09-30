@@ -17,13 +17,14 @@
     margin-bottom: $spacing-xs;
     .card__title {
       font-size: $f-size-lg;
-      margin-bottom: $spacing-md;
+      margin-bottom: $spacing-xs;
       color: $third-color;
     }
 
     .card__text {
       font-size: $f-size-base;
       color: $text-light-color;
+      font-weight: 300;
     }
   }
 

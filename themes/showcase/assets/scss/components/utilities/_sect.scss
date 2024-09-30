@@ -1,0 +1,13 @@
+.sect{
+  &__title{
+    font-size: $spacing-xl;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $third-color;
+  }
+
+  &__description{
+    font-weight: 300;
+    color: $text-light-color;
+  }
+}
