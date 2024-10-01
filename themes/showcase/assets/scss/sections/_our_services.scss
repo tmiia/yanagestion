@@ -3,6 +3,9 @@
   flex-wrap: wrap;
   gap: $spacing-xxl;
   padding: $spacing-xxxl;
+  padding-top: clamp(pxToRem(64), 10vw, pxToRem(224));
+  background: $background-gradient;
+  border-radius: $border-lg;
 
   .left{
     display: flex;
