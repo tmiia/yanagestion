@@ -1,1 +1,10 @@
 // Tag
+.tag{
+  padding: $spacing-xxs $spacing-md;
+  background-color: $secondary-color-op;
+  border: pxToRem(1) solid $third-color;
+  color: $third-color;
+  border-radius: 1000px;
+  font-size: $f-size-xs;
+  font-weight: 500;
+}
