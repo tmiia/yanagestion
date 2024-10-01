@@ -2,16 +2,21 @@
 
 .quick-contact{
   position: relative;
-  width: fit-content;
+  width: pxToRem(420);
 
   input{
-    width: 420px;
+    width: 100%;
   }
+
   button{
     position: absolute;
     top: 50%;
     right: 0;
     transform: translateY(-50%);
     height: 100%;
+  }
+
+  @media (max-width: $breakpoint-md) {
+    width: calc(100% - 64px);
   }
 }
