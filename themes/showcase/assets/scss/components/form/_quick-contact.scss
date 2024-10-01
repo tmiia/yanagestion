@@ -1,1 +1,17 @@
 // Quick contact form
+
+.quick-contact{
+  position: relative;
+  width: fit-content;
+
+  input{
+    width: 420px;
+  }
+  button{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    height: 100%;
+  }
+}
