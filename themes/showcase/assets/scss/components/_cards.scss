@@ -54,4 +54,22 @@
       transform: translate(15%, 35%);
     }
   }
+
+  &.full-img{
+    padding: 0;
+    background-color: $third-color;
+
+    .card__image {
+      justify-content: center;
+
+      img {
+        transform: translateX(0) scale(1);
+        max-height: unset;
+        opacity: 0.7;
+      }
+    }
+    .card__content {
+      display: none;
+    }
+  }
 }
