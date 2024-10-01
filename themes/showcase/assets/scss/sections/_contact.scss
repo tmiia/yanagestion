@@ -1,0 +1,19 @@
+.contact{
+  .right{
+    form{
+      flex: 1.25;
+
+      input + .row{
+        margin: $spacing-xl 0 $spacing-xl 0;
+      }
+
+      .row{
+        gap: $spacing-xs;
+      }
+    }
+
+    .card{
+      flex: 1;
+    }
+  }
+}

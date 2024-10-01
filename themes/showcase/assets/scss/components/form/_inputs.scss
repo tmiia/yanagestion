@@ -1,1 +1,18 @@
 // Inputs
+
+input{
+  border: pxToRem(1) solid $text-grey-color;
+  border-radius: $border-lg;
+  padding: $spacing-md $spacing-lg;
+  width: 100%;
+  color: $text-light-color;
+
+  &::placeholder {
+    color: $text-grey-color;
+    opacity: 1;
+  }
+
+  &[type='checkbox']{
+    display: block;
+  }
+}
