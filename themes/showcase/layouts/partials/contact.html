@@ -1,0 +1,25 @@
+<section class="contact two-part-sect">
+  <div class="left">
+    <div class="content">
+      <h2 class="sect__title">{{ .title }}</h2>
+      <p class="sect__description">{{ .description }}</p>
+    </div>
+  </div>
+  <div class="right">
+    <div class="row">
+      <form action="" method="post">
+        <div class="form__main-content">
+          <input type="checkbox" name="is_auto_or_pme" id="is_auto_or_pme" class="switch">
+          <input type="email" name="mail" id="mail">
+          <div class="row">
+            <input type="text" name="compagny" id="compagny">
+            <input type="tel" name="phone" id="phone">
+          </div>
+          <input type="text" name="message" id="message">
+        </div>
+        <button type="submit">Valider</button>
+      </form>
+      {{ partial "card.html" (dict "className" "full-img" "image" "https://fastly.picsum.photos/id/247/800/500.jpg?hmac=lcnWNpuOQ5fJK04ITM4j_lglgySwnba9kxkny0-_Hk8") }}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,15 @@
+.two-part-sect{
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-xxl;
+
+  .left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .right{
+    flex: 3;
+  }
+}
