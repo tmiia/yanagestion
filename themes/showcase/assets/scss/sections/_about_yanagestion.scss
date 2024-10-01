@@ -1,0 +1,14 @@
+.about_yanagestion{
+  .main-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: pxToRem(32);
+
+    .col{
+      display: flex;
+      flex-direction: column;
+      gap: pxToRem(32);
+    }
+  }
+}
