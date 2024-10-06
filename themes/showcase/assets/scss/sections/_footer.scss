@@ -1,0 +1,15 @@
+footer{
+  width: 100%;
+  height: fit-content;
+  margin-top: calc(#{$spacing-huge} * 2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: $spacing-xxl;
+
+  span{
+    font-size: $f-size-xs;
+    color: $third-color;
+  }
+}
