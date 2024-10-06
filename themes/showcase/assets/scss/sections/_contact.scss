@@ -15,6 +15,10 @@
         gap: $spacing-xs;
       }
 
+      textarea{
+        min-height: pxToRem(204);
+      }
+
       .action{
         display: flex;
         justify-content: flex-end;

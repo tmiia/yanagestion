@@ -1,6 +1,6 @@
 // Inputs
 
-input{
+input, textarea{
   border: pxToRem(1) solid $text-grey-color;
   border-radius: $border-lg;
   padding: $spacing-md $spacing-lg;
