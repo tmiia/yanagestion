@@ -7,6 +7,7 @@
   padding: $spacing-lg;
   border-radius: 1000px;
   transition: .3s ease-in-out;
+  cursor: pointer;
 
   &::after{
     content: attr(data-text);
