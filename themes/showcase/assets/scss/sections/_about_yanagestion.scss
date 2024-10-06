@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: $spacing-xl;
+  margin: pxToRem(128) 0 pxToRem(128) 0;
 
   .main-grid{
     display: grid;

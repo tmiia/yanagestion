@@ -10,6 +10,24 @@
       .row{
         gap: $spacing-xs;
       }
+
+      .action{
+        display: flex;
+        justify-content: flex-end;
+        margin-top:  $spacing-xl;
+
+        button{
+          border: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img{
+            width: pxToRem(24);
+            height: pxToRem(24);
+          }
+        }
+      }
     }
 
     .card{
