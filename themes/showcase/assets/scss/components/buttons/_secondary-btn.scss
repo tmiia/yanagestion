@@ -1,1 +1,10 @@
 // Secondary button
+
+.secondary-btn{
+  padding: $spacing-sm $spacing-xl;
+  background-color: $third-color;
+  border-radius: $border-round;
+  color: $text-white-color;
+  border: none;
+  cursor: pointer;
+}
