@@ -2,22 +2,98 @@ backend:
   name: github
   branch: main
   repo: "tmiia/yanagestion"
-  base_url: "https://delicate-fog-f391.telusma-nehemia.workers.dev/"
-  auth_endpoint: "/auth"
+  site_domain: yanagestion.fr
+  base_url: "https://auth.yanagestion.fr/"
+  auth_endpoint: /auth
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
 collections:
-  - name: "projects"
-    label: "Projets"
-    folder: "content/projects"
+  - name: "hero"
+    label: "Hero"
+    folder: "content/hero"
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titre", name: "title", widget: "string", required: true }
+      - { label: "Placeholder Tel", name: "placeholder_tel", widget: "string", required: true }
+
+  - name: "our_services"
+    label: "Our Services"
+    folder: "content/our_services"
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titre", name: "title", widget: "string", required: true }
+      - { label: "Text", name: "text", widget: "string", required: true }
+      - { label: "CTA Tel", name: "cta_tel", widget: "string", required: true }
+
+      - label: "Card 1"
+        name: "card_1"
+        widget: "object"
+        fields:
+          - { label: "Card 1 Title", name: "title", widget: "string", required: true }
+          - { label: "Card 1 Text", name: "text", widget: "string", required: true }
+
+      - label: "Card 2"
+        name: "card_2"
+        widget: "object"
+        fields:
+          - { label: "Card 2 Title", name: "title", widget: "string", required: true }
+          - { label: "Card 2 Text", name: "text", widget: "string", required: true }
+
+      - label: "Card 3"
+        name: "card_3"
+        widget: "object"
+        fields:
+          - { label: "Card 3 Title", name: "title", widget: "string", required: true }
+          - { label: "Card 3 Text", name: "text", widget: "string", required: true }
+
+  - name: "about_yanagestion"
+    label: "About Yanagestion"
+    folder: "content/about_yanagestion"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Card 1"
+        name: "card_1"
+        widget: "object"
+        fields:
+          - { label: "Card 1 Title", name: "title", widget: "string", required: true }
+          - { label: "Card 1 Text", name: "text", widget: "string", required: true }
+
+      - label: "Card 2"
+        name: "card_2"
+        widget: "object"
+        fields:
+          - { label: "Card 2 Full image", name: "full image", widget: "image", required: true }
+
+      - label: "Card 3"
+        name: "card_3"
+        widget: "object"
+        fields:
+          - { label: "Card 3 Title", name: "title", widget: "string", required: true }
+          - { label: "Card 3 Text", name: "text", widget: "string", required: true }
+
+      - label: "Card 4"
+        name: "card_4"
+        widget: "object"
+        fields:
+          - { label: "Card 4 Full image", name: "full image", widget: "image", required: true }
+          - { label: "Card 4 cta", name: "cta", widget: "string", required: true }
+
+      - label: "Card 5"
+        name: "card_5"
+        widget: "object"
+        fields:
+          - { label: "Card 5 image", name: "image", widget: "image", required: true }
+          - { label: "Card 5 Title", name: "title", widget: "string", required: true }
+          - { label: "Card 5 Text", name: "text", widget: "string", required: true }
+
+  - name: "contact"
+    label: "Contact"
+    folder: "content/contact"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Titre", name: "title", widget: "string", required: true }
-      - { label: "Description", name: "description", widget: "text", required: true }
-      - { label: "Image", name: "image", widget: "image", required: true }
-      - { label: "Lien", name: "link", widget: "string", required: true, hint: "URL valide (incluant http:// ou https://)" }
-      - { label: "Date de création", name: "date", widget: "datetime", default: "{{date}}" }
-      - { label: "Tags", name: "tags", widget: "list", required: false, hint: "Liste des tags pour le projet" }
+      - { label: "Text", name: "text", widget: "string", required: true }

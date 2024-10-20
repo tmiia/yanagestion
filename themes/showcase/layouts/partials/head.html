@@ -26,4 +26,6 @@
 
   {{ $styles := resources.Get "scss/application.scss" | resources.ToCSS | resources.Minify }}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+
+  <link href=/admin/config.yml type=text/yaml rel=cms-config-url>
 </head>
