@@ -42,4 +42,14 @@
       flex: 1;
     }
   }
+
+  @media (max-width: $breakpoint-md) {
+    flex-direction: column;
+    padding: $spacing-xxxl;
+
+    .form-img{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
 }
