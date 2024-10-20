@@ -4,7 +4,7 @@
   border-radius: $border-m;
   padding: $spacing-md;
   background-color: $secondary-color-low-op;
-  // max-width: pxToRem(800);
+  min-height: fit-content;
   box-shadow: $box-shadow;
   overflow: hidden;
 
