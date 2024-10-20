@@ -94,4 +94,13 @@
       }
     }
   }
+
+  @media (max-width: $breakpoint-md) {
+    .card__image {
+      flex: 1.5;
+      justify-content: center;
+      background-color: $third-color;
+      transform: translate(0, 0);
+    }
+  }
 }
