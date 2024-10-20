@@ -4,6 +4,11 @@ section_our_services:
   text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquam
     sapien metus, id viverra enim porttitor eu.
   cta: []
+aside_our_services:
+  header: Il te faut l’aide de Yana Gestion
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquam
+    sapien metus, id viverra enim porttitor eu.
+  cta_tel: Appelons nous
 card_1:
   title: On s’occupe de tes relances clients
   text: Curabitur mollis ex lobortis lectus ultricies, sed sagittis dui laoreet.
