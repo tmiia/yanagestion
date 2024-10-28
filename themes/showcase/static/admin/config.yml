@@ -65,7 +65,7 @@ collections:
         name: "card_2"
         widget: "object"
         fields:
-          - { label: "Card 2 Full image", name: "full image", widget: "image", required: true }
+          - { label: "Card 2 Full image", name: "ffull_image", widget: "image", required: true }
 
       - label: "Card 3"
         name: "card_3"
@@ -78,7 +78,7 @@ collections:
         name: "card_4"
         widget: "object"
         fields:
-          - { label: "Card 4 Full image", name: "full image", widget: "image", required: true }
+          - { label: "Card 4 Full image", name: "full_image", widget: "image", required: true }
           - { label: "Card 4 cta", name: "cta", widget: "string", required: true }
 
       - label: "Card 5"

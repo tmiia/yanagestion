@@ -3,14 +3,14 @@ card_1:
   title: Yana Gestion, une entreprise locale
   text: Pour des entrepreneur·e·s et artisan·e·s local·e·s !
 card_2:
-  full image: https://fastly.picsum.photos/id/247/800/500.jpg?hmac=lcnWNpuOQ5fJK04ITM4j_lglgySwnba9kxkny0-_Hk8
+  full_image: https://fastly.picsum.photos/id/247/800/500.jpg?hmac=lcnWNpuOQ5fJK04ITM4j_lglgySwnba9kxkny0-_Hk8
 card_3:
   title: Un besoin criant chez les entrepreneur·s·euses Antillo-Guyanais·es !
   text: Curabitur mollis ex lobortis lectus ultricies, sed sagittis dui laoreet.
     Sed in lacinia sapien. Cras blandit condimentum augue nec vulputate. Fusce
     ornare ex eu volutpat finibus. Aenean sagittis odio et magna cursus semper.
 card_4:
-  full image: https://picsum.photos/700/600
+  full_image: https://picsum.photos/700/600
   cta: Obtenir un devis
 card_5:
   title: Notre Objectif ?
