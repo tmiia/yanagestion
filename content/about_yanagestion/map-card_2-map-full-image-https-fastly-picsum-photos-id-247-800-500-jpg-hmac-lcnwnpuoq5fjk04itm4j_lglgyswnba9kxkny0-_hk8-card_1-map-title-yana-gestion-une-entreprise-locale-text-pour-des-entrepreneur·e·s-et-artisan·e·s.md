@@ -4,6 +4,7 @@ card_1:
   text: Pour des entrepreneur·e·s et artisan·e·s local·e·s !
 card_2:
   full_image: https://fastly.picsum.photos/id/247/800/500.jpg?hmac=lcnWNpuOQ5fJK04ITM4j_lglgySwnba9kxkny0-_Hk8
+  full image: https://picsum.photos/800/500
 card_3:
   title: Un besoin criant chez les entrepreneur·s·euses Antillo-Guyanais·es !
   text: Curabitur mollis ex lobortis lectus ultricies, sed sagittis dui laoreet.
@@ -12,6 +13,7 @@ card_3:
 card_4:
   full_image: https://picsum.photos/700/600
   cta: Obtenir un devis
+  full image: https://picsum.photos/800/500
 card_5:
   title: Notre Objectif ?
   text: Curabitur mollis ex lobortis lectus ultricies, sed sagittis dui laoreet.
