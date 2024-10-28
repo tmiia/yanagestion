@@ -32,7 +32,7 @@
             <button type="submit" class="primary-btn blue" data-text="Valider"><img src="/media/icons/arrow.svg" alt=""></button>
           </div>
         </form>
-        {{ partial "card.html" (dict "className" "full-img" "image" "https://fastly.picsum.photos/id/247/800/500.jpg?hmac=lcnWNpuOQ5fJK04ITM4j_lglgySwnba9kxkny0-_Hk8") }}
+        {{ partial "card.html" (dict "className" "full-img" "image" "{{ .Params.full_image }}") }}
       </div>
     </div>
   </section>
