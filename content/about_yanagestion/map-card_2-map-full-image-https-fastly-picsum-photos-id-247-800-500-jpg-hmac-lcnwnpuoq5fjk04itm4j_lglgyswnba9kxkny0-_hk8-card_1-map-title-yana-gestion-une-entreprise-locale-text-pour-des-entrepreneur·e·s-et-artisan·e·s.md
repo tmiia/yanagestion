@@ -3,7 +3,7 @@ card_1:
   title: Yana Gestion, une entreprise locale
   text: Pour des entrepreneur·e·s et artisan·e·s local·e·s !
 card_2:
-  full_image: https://fastly.picsum.photos/id/247/800/500.jpg?hmac=lcnWNpuOQ5fJK04ITM4j_lglgySwnba9kxkny0-_Hk8
+  full_image: https://picsum.photos/700/800
   full image: https://picsum.photos/800/500
   ffull_image: https://picsum.photos/700/800
 card_3:
