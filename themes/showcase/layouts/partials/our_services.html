@@ -1,19 +1,21 @@
-<section class="our_services two-part-sect">
-  <div class="left">
-    <div class="content">
-      <h2 class="sect__title">{{ .title }}</h2>
-      <p class="sect__description">{{ .description }}</p>
-    </div>
+{{ range where site.RegularPages "Section" "our_services" }}
+  <section class="our_services two-part-sect">
+    <div class="left">
+      <div class="content">
+        <h2 class="sect__title">{{ .Params.title }}</h2>
+        <p class="sect__description">{{ .Params.text }}</p>
+      </div>
 
-    <a href="tel:+" class="primary-btn" data-text="Appelons nous"><img src="/media/icons/phone-solid.svg" alt=""></a>
-  </div>
-  <div class="right">
-    <div class="row">
-      {{ partial "card.html" (dict "title" "On s’occupe de tes relances clients" "content" "Curabitur mollis ex lobortis lectus ultricies, sed sagittis dui laoreet. Sed in lacinia sapien. Cras blandit condimentum augue nec vulputate. Fusce ornare ex eu volutpat finibus. Aenean sagittis odio et magna cursus semper.") }}
-      {{ partial "card.html" (dict "title" "On s’occupe de gérer l’administration de ton entreprise " "content" "Curabitur mollis ex lobortis lectus ultricies, sed sagittis dui laoreet. Sed in lacinia sapien. Cras blandit condimentum augue nec vulputate. Fusce ornare ex eu volutpat finibus. Aenean sagittis odio et magna cursus semper.") }}
+      <a href="tel:+" class="primary-btn" data-text="{{ .Params.aside_our_services.cta_tel}}"><img src="/media/icons/phone-solid.svg" alt=""></a>
     </div>
-    <div class="row">
-      {{ partial "card.html" (dict "title" "On s’occupe de gérer tes tâches comptables et financières " "content" "Curabitur mollis ex lobortis lectus ultricies, sed sagittis dui laoreet. Sed in lacinia sapien. Cras blandit condimentum augue nec vulputate. Fusce ornare ex eu volutpat finibus. Aenean sagittis odio et magna cursus semper.") }}
+    <div class="right">
+      <div class="row">
+        {{ partial "card.html" (dict "title" .Params.card_1.title "content" .Params.card_1.text) }}
+        {{ partial "card.html" (dict "title" .Params.card_2.title "content" .Params.card_2.text) }}
+      </div>
+      <div class="row">
+        {{ partial "card.html" (dict "title" .Params.card_3.title "content" .Params.card_3.text) }}
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+{{ end }}
