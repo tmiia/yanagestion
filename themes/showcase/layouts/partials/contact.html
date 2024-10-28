@@ -1,37 +1,39 @@
-<section class="contact two-part-sect">
-  <div class="left">
-    <div class="content">
-      <h2 class="sect__title">{{ .title }}</h2>
-      <p class="sect__description">{{ .description }}</p>
+{{ range where site.RegularPages "Section" "contact" }}
+  <section class="contact two-part-sect">
+    <div class="left">
+      <div class="content">
+        <h2 class="sect__title">{{ .Params.title }}</h2>
+        <p class="sect__description">{{ .Params.text }}</p>
+      </div>
     </div>
-  </div>
-  <div class="right">
-    <div class="row form-img">
-      <form action="" method="post">
-        <div class="form__main-content">
+    <div class="right">
+      <div class="row form-img">
+        <form action="" method="post">
+          <div class="form__main-content">
 
-          <div class="switch__container">
-            <input type="checkbox" name="is_auto_or_pme" id="is_auto_or_pme" class="switch">
-            <label for="is_auto_or_pme">
-              <span>Auto-entrepreneur.euse</span>
-              <span>PME</span>
-            </label>
+            <div class="switch__container">
+              <input type="checkbox" name="is_auto_or_pme" id="is_auto_or_pme" class="switch">
+              <label for="is_auto_or_pme">
+                <span>Auto-entrepreneur.euse</span>
+                <span>PME</span>
+              </label>
+            </div>
+
+
+
+            <input type="email" name="mail" id="mail" placeholder="Adresse mail">
+            <div class="row">
+              <input type="text" name="compagny" id="compagny" placeholder="Nom de ton entreprise">
+              <input type="tel" name="phone" id="phone" placeholder="Numéro de tel.">
+            </div>
+            <textarea name="message" id="message" placeholder="Expliques nous ton besoin !" rows="5" cols="15"></textarea>
           </div>
-
-
-
-          <input type="email" name="mail" id="mail" placeholder="Adresse mail">
-          <div class="row">
-            <input type="text" name="compagny" id="compagny" placeholder="Nom de ton entreprise">
-            <input type="tel" name="phone" id="phone" placeholder="Numéro de tel.">
+          <div class="action">
+            <button type="submit" class="primary-btn blue" data-text="Valider"><img src="/media/icons/arrow.svg" alt=""></button>
           </div>
-          <textarea name="message" id="message" placeholder="Expliques nous ton besoin !" rows="5" cols="15"></textarea>
-        </div>
-        <div class="action">
-          <button type="submit" class="primary-btn blue" data-text="Valider"><img src="/media/icons/arrow.svg" alt=""></button>
-        </div>
-      </form>
-      {{ partial "card.html" (dict "className" "full-img" "image" "https://fastly.picsum.photos/id/247/800/500.jpg?hmac=lcnWNpuOQ5fJK04ITM4j_lglgySwnba9kxkny0-_Hk8") }}
+        </form>
+        {{ partial "card.html" (dict "className" "full-img" "image" "https://fastly.picsum.photos/id/247/800/500.jpg?hmac=lcnWNpuOQ5fJK04ITM4j_lglgySwnba9kxkny0-_Hk8") }}
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+{{ end }}
