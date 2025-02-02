@@ -8,7 +8,9 @@
     </div>
     <div class="right">
       <div class="row form-img">
-        <form action="" method="post">
+        <form name="contact" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
+
           <div class="form__main-content">
 
             <div class="switch__container">
@@ -23,11 +25,12 @@
 
             <input type="email" name="mail" id="mail" placeholder="Adresse mail">
             <div class="row">
-              <input type="text" name="compagny" id="compagny" placeholder="Nom de ton entreprise">
-              <input type="tel" name="phone" id="phone" placeholder="Numéro de tel.">
+              <input type="text" name="compagny" id="compagny" placeholder="Nom de ton entreprise" required>
+              <input type="tel" name="phone" id="phone" placeholder="Numéro de tel." required>
             </div>
-            <textarea name="message" id="message" placeholder="Expliques nous ton besoin !" rows="5" cols="15"></textarea>
+            <textarea name="message" id="message" placeholder="Expliques nous ton besoin !" rows="5" cols="15" required></textarea>
           </div>
+
           <div class="action">
             <button type="submit" class="primary-btn blue" data-text="Valider"><img src="/media/icons/arrow.svg" alt=""></button>
           </div>
