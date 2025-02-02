@@ -2,9 +2,6 @@ backend:
   name: github
   branch: main
   repo: "tmiia/yanagestion"
-  site_domain: yanagestion.fr
-  base_url: "https://auth.yanagestion.fr/"
-  auth_endpoint: /auth
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
