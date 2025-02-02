@@ -40,3 +40,17 @@
     </div>
   </section>
 {{ end }}
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const switchInput = document.getElementById("is_auto_or_pme");
+
+    if (switchInput.dataset.value === "pme") {
+      switchInput.checked = true;
+    }
+
+    switchInput.addEventListener("change", function () {
+      switchInput.dataset.value = switchInput.checked ? "pme" : "auto";
+    });
+  });
+</script>
