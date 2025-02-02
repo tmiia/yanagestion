@@ -1,7 +1,7 @@
 baseURL = "https://yana-gestion.fr"
 languageCode = 'fr-FR'
 title = 'Yana Gestion'
-theme = "Showcase"
+theme = "showcase"
 enableRobotsTXT = true
 canonifyURLs = true
 
