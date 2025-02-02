@@ -1,4 +1,4 @@
-baseURL = "https://yana-gestion.fr"
+baseURL = "/"
 languageCode = 'fr-FR'
 title = 'Yana Gestion'
 theme = "showcase"
