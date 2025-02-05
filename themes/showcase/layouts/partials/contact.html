@@ -12,16 +12,13 @@
           <input type="hidden" name="form-name" value="contact" />
 
           <div class="form__main-content">
-
             <div class="switch__container">
-              <input type="checkbox" name="is_auto_or_pme" id="is_auto_or_pme" class="switch">
+              <input type="checkbox" name="business_type" id="is_auto_or_pme" class="switch" value="auto">
               <label for="is_auto_or_pme">
                 <span>Auto-entrepreneur.euse</span>
                 <span>PME</span>
               </label>
             </div>
-
-
 
             <input type="email" name="mail" id="mail" placeholder="Adresse mail">
             <div class="row">
@@ -45,12 +42,8 @@
   document.addEventListener("DOMContentLoaded", function () {
     const switchInput = document.getElementById("is_auto_or_pme");
 
-    if (switchInput.dataset.value === "pme") {
-      switchInput.checked = true;
-    }
-
     switchInput.addEventListener("change", function () {
-      switchInput.dataset.value = switchInput.checked ? "pme" : "auto";
+      switchInput.value = switchInput.checked ? "pme" : "auto";
     });
   });
 </script>
