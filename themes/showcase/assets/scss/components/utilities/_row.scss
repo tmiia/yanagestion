@@ -6,6 +6,10 @@
     margin-top: $spacing-xxl;
   }
 
+  .card {
+    flex: 1;
+  }
+
   @media (max-width: $breakpoint-sm) {
     flex-wrap: wrap;
   }
