@@ -9,23 +9,20 @@ aside_our_services:
   text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquam
     sapien metus, id viverra enim porttitor eu.
   cta_tel: Appelons nous
-title: Il te faut l’aide de Yana Gestion
-text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquam
-  sapien metus, id viverra enim porttitor eu.
+title: Vous avez besoin de l’expertise de Yana Gestion
+text: Gagnez du temps et concentrez-vous sur votre cœur de métier, nous nous
+  occupons du reste.
 cta_tel: Appelons nous
 card_1:
-  title: On s’occupe de tes relances clients
-  text: Curabitur mollis ex lobortis lectus ultricies, sed sagittis dui laoreet.
-    Sed in lacinia sapien. Cras blandit condimentum augue nec vulputate. Fusce
-    ornare ex eu volutpat finibus. Aenean sagittis odio et magna cursus semper.
+  title: "Relances clients : nous assurons le suivi"
+  text: Évitez les impayés et les oublis grâce à notre service de relance efficace
+    et professionnel.
 card_2:
-  title: "On s’occupe de gérer l’administration de ton entreprise "
-  text: Curabitur mollis ex lobortis lectus ultricies, sed sagittis dui laoreet.
-    Sed in lacinia sapien. Cras blandit condimentum augue nec vulputate. Fusce
-    ornare ex eu volutpat finibus. Aenean sagittis odio et magna cursus semper.
+  title: Gestion administrative de votre entreprise
+  text: Nous prenons en charge vos démarches administratives pour une gestion
+    fluide et sans stress.
 card_3:
-  title: "On s’occupe de gérer tes tâches comptables et financières "
-  text: Curabitur mollis ex lobortis lectus ultricies, sed sagittis dui laoreet.
-    Sed in lacinia sapien. Cras blandit condimentum augue nec vulputate. Fusce
-    ornare ex eu volutpat finibus. Aenean sagittis odio et magna cursus semper.
+  title: "Pré-Comptabilité et finances : un accompagnement sur mesure"
+  text: Optimisez votre gestion financière avec notre assistance  adaptée à vos
+    besoins.
 ---
