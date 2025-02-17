@@ -1,7 +1,7 @@
 <div class="card {{ .className }}">
   <div class="card__content">
     <h2 class="card__title">{{ .title }}</h2>
-    <p class="card__text">{{ .content }}</p>
+    <div class="card__text">{{ .content | markdownify }}</div>
   </div>
 
   {{ if .image }}

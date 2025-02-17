@@ -21,7 +21,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Titre", name: "title", widget: "string", required: true }
-      - { label: "Text", name: "text", widget: "string", required: true }
+      - { label: "Text", name: "text", widget: "text", required: true }
       - { label: "CTA Tel", name: "cta_tel", widget: "string", required: true }
 
       - label: "Card 1"
@@ -29,24 +29,21 @@ collections:
         widget: "object"
         fields:
           - { label: "Card 1 Title", name: "title", widget: "string", required: true }
-          - { label: "Card 1 Text", name: "text", widget: "string", required: true }
-          - { label: "Card 1 Text 2", name: "text_2", widget: "string", required: false }
+          - { label: "Card 1 Text", name: "text", widget: "text", required: true }
 
       - label: "Card 2"
         name: "card_2"
         widget: "object"
         fields:
           - { label: "Card 2 Title", name: "title", widget: "string", required: true }
-          - { label: "Card 2 Text", name: "text", widget: "string", required: true }
-          - { label: "Card 2 Text 2", name: "text_2", widget: "string", required: false }
+          - { label: "Card 2 Text", name: "text", widget: "text", required: true }
 
       - label: "Card 3"
         name: "card_3"
         widget: "object"
         fields:
           - { label: "Card 3 Title", name: "title", widget: "string", required: true }
-          - { label: "Card 3 Text", name: "text", widget: "string", required: true }
-          - { label: "Card 3 Text 2", name: "text 2", widget: "string", required: false }
+          - { label: "Card 3 Text", name: "text", widget: "text", required: true }
 
   - name: "about_yanagestion"
     label: "About Yanagestion"
@@ -59,8 +56,7 @@ collections:
         widget: "object"
         fields:
           - { label: "Card 1 Title", name: "title", widget: "string", required: true }
-          - { label: "Card 1 Text", name: "text", widget: "string", required: true }
-          - { label: "Card 1 Text 2", name: "text_2", widget: "string", required: false }
+          - { label: "Card 1 Text", name: "text", widget: "text", required: true }
 
       - label: "Card 2"
         name: "card_2"
@@ -73,8 +69,7 @@ collections:
         widget: "object"
         fields:
           - { label: "Card 3 Title", name: "title", widget: "string", required: true }
-          - { label: "Card 3 Text", name: "text", widget: "string", required: true }
-          - { label: "Card 3 Text 2", name: "text_2", widget: "string", required: false }
+          - { label: "Card 3 Text", name: "text", widget: "text", required: true }
 
       - label: "Card 4"
         name: "card_4"
@@ -89,8 +84,7 @@ collections:
         fields:
           - { label: "Card 5 image", name: "image", widget: "image", required: true }
           - { label: "Card 5 Title", name: "title", widget: "string", required: true }
-          - { label: "Card 5 Text", name: "text", widget: "string", required: true }
-          - { label: "Card 5 Text 2", name: "text_2", widget: "string", required: false }
+          - { label: "Card 5 Text", name: "text", widget: "text", required: true }
 
   - name: "contact"
     label: "Contact"
@@ -100,5 +94,4 @@ collections:
     fields:
       - { label: "Titre", name: "title", widget: "string", required: true }
       - { label: "Text", name: "text", widget: "string", required: true }
-      - { label: "Text 2", name: "text_2", widget: "string", required: true }
       - { label: "Full image", name: "full_image", widget: "image", required: true }
