@@ -8,6 +8,7 @@
 
   .card {
     flex: 1;
+    min-height: 11.25rem;
   }
 
   @media (max-width: $breakpoint-sm) {
