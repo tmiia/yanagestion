@@ -1,4 +1,4 @@
 ---
-title: Pas de panique, on s’occupe du plus relou !
+title: Confiez-nous les tâches les plus fastidieuses !
 placeholder_tel: Appellons nous
 ---
