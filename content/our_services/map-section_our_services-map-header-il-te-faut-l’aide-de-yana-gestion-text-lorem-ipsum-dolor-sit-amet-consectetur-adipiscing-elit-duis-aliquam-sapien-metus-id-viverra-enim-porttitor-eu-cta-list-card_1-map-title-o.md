@@ -23,6 +23,9 @@ card_2:
     fluide et sans stress.
 card_3:
   title: "Pré-Comptabilité et finances : un accompagnement sur mesure"
-  text: Optimisez votre gestion financière avec notre assistance  adaptée à vos
-    besoins.
+  text: >
+    Gérer la comptabilité et les finances d’une entreprise peut vite devenir
+    complexe et chronophage. Chez Yana Gestion, nous vous proposons un
+    accompagnement personnalisé pour optimiser votre gestion financière en toute
+    sérénité.
 ---
